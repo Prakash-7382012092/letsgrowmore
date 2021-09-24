@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+*{
+    font-family: 'Scheherazade New', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+
+html{   
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+header{
+    background:url('images/d3.jpg');
+    height:600px;
+    width: 100%;
+    top: 0px;
+}
+header .navbar{
+    float:right;
+    margin: -40px 460px;
+}
+
+
+.header .navbar a{
+    position: relative;
+    font-size: 22px;
+    color: antiquewhite;
+    margin: 20px;
+}
+.logo{
+    font-size: 35px;
+    margin:20px 50px;
+    color:aliceblue;
+}
+.header .content {
+    position: relative;
+    color: aliceblue;
+    margin-top: 250px;   
+    margin-left: 150px;
+}
+.content button{
+    padding: 10px 15px;
+    margin-left: 15px;
+}
+.content .btn{
+    background-color: yellow;
+}
+.content .bt{
+    background-color:blueviolet;
+}
+.one center{
+    margin-top: 25px;
+    font-size: 42px;
+}
+.one .row{
+    margin-top: 35px;
+    padding: 30px;
+
+}
+.one .a{
+    margin-left: 220px;
+    color: red;
+    font-size: 20px;
+} 
+.one .a:hover{
+    background-color: blue;
+    color: aliceblue;  
+    padding: 10px;
+    border-radius: 10px;  
+}
+#three .b ion-icon{
+    font-size: 150px;
+}
+#three.b{
+    margin-right: 330px;    
+}
+#three.b:hover{
+    background-color: blue;
+    color:white;
+}
+.two{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row; 
+      
+}
+
+.two div{
+    gap: 50px;
+    justify-content: center;    
+    margin-left: 60px;
+padding-top: 20px;
+    margin-right: 30px;
+    flex-direction: column;
+}
+.two button{
+    font-size: 20px;
+    margin-left: 130px;
+    background-color: orangered;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.bv h2{
+    text-align: center;    
+    margin-top: 60px; 
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: 500;
+}
+.two ion-icon{
+    font-size: 60px;
+    margin-left: 140px;
+}
+.two h1{
+    margin-left: 100px; 
+}
+.two div:hover{
+    background-color: blue;
+    color:white;
+    border-radius: 10px;
+}
+.two p{
+    font-size: 20px;
+    padding: 20px;
+}
+#app {
+    padding: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+
+    .carousel-indicators > li {
+    background-color: var(--primary);
+}
+#three .row{
+    text-align: center;
+}
+#three .row h1{
+    font-size: 42px;
+    color: aqua;
+}
+#three .row p{
+    color: gray;
+    font-size: 16px;
+}
+#three .row h6{
+    font-size: 36px;
+    color: orangered;
+}
+#three .row button{
+    font-size: 28px;
+    padding: 10px;
+    background-color: aqua;
+    color: orangered;
+    border-radius: 10px;
+}
+#three .row button:hover{
+   background-color: blue;
+   color: green;
+}
+#prices h1{
+    font-size: 42px;
+}
+
+.img-wrapper {  
+  width: 400px;
+  height: 300px;
+  overflow: hidden; 
+  margin-left: 50px;
+}
+
+.inner-img {
+  transition: 0.3s;
+}
+
+.inner-img:hover {
+  transform: scale(1.8);
+}
+
+/* Other styling elements, that are not necessary for the example */
+
+.img-wrapper {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+#three .row .a:hover,#three .row .b:hover,#three .row .c:hover{
+    background-color: blue;
+    color: greenyellow;
+    border-radius:10px;
+}
+#three .row div{
+    padding: 30px;
+}
+.one .b{
+    width: 300px;
+}
+.four{
+    margin-left: 50px;
+}
+.main-title{
+  color: #2d2d2d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+
+.hi{
+  padding: 1em 0;
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 640px){
+  .hi{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .hi{
+    width: 33.33333%;
+  }
+}
+
+.hi .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+.one .b ion-icon{
+  font-size: 120px;
+  color:green;
+}
+.one .b:hover,.one.b ion-icon:hover{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.fadeIn-bottom{
+  top: 80%;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
+}
+.hi ion-icon{
+    font-size: 28px;
+    color: white;
+    margin-left:10px ;
+}
+#projects h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#team-work h1{
+    font-size: 42px;
+    font-weight: bold;
+    margin: 30px;
+    text-align: center;
+}
+#app b-col{
+  background-color: blue;
+}
+.five{
+  margin-bottom: 350px;
+}
+.six{
+  height: 400px;
+  width: 100%;
+  background-image: url('../images/g4.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.six .sixa{
+padding: 10px 15px;
+font-size: 20px;
+}
+.six h1{
+  color: aqua;
+}
+.six button{
+  margin-top: 20px;
+  color: aqua;
+  background-color: blue;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+#seven img{
+  width:300px;
+  height: 300px;
+  
+}
+#seven{
+ place-items: center;
+ margin-bottom: 30px;
+}
+#seven p{
+  font-size: 16px;
+  margin-left: 80px;
+}
+#seven h6{
+  font-size: 20px;
+  margin-left: 50px;
+}
+#seven button{
+  font-size: 22px;
+  margin-left: 35px;
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#blog1 h1{
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.hy{
+  margin-left: 80px;
+}
+.yh{
+  background-color: yellow;
+  height: 500px;  
+
+}
+
+.yh input,label,.yh h1{
+margin-left: 40px;
+}
+.cd{
+  margin-left: 40px;
+}
+.yh{
+  padding-top: 30px;
+  margin-right:20px;
+}
+.yh h1{
+  font-size: 36px;
+}
+.yh label{
+  font-size: 20px;
+}
+.yh input,.yh textarea{
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.nine{
+  text-align: center;
+  margin-top: 20px;
+}
+.nine ion-icon{
+  margin: 10px;
+  font-size: 24px;
+  color: green;
+}
+.nine p{
+  font-size: 18px;
+}
+.nine h1{
+  color: orangered;
+}
+.nine p{
+  color:blueviolet;
+}
+.ten{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: blue;
+  color: aqua;
+  padding: 30px;
+  
+}
+.ten p{
+  font-size: 18px;
+}
+
